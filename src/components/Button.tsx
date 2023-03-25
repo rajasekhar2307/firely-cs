@@ -12,12 +12,14 @@ const Button = ({
   iconType,
   type,
   disabled,
+  onClick,
 }: {
   text: string;
   className?: string;
   iconType?: iconTypeEnum;
   type?: "button" | "submit";
   disabled: boolean;
+  onClick?: any;
 }) => {
   return (
     <button
@@ -26,6 +28,7 @@ const Button = ({
       }
       disabled={disabled}
       type={type}
+      onClick={onClick}
     >
       {text} {iconType === iconTypeEnum.arrowRight && <ArrowRight />}
     </button>

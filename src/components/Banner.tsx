@@ -2,6 +2,7 @@
 
 import Container from "@mui/material/Container";
 import { useState } from "react";
+import { isForOfStatement } from "typescript";
 import Button from "./Button";
 import WaitListForm from "./WaitListForm";
 
@@ -9,7 +10,10 @@ enum iconTypeEnum {
   arrowRight = "ARROW_RIGHT",
 }
 const Banner = () => {
-  const isFormVisible = useState<boolean>(true);
+  const [isFormVisible, setIsFormVisible] = useState<boolean>(false);
+  const handleJoinWaitList = () => {
+    setIsFormVisible(true);
+  };
   return (
     <div className="hero-section__container">
       <div className="banner-bg">
@@ -34,6 +38,7 @@ const Banner = () => {
                   disabled={false}
                   text="Join the waitlist!"
                   className="mt-16"
+                  onClick={handleJoinWaitList}
                 />
               </div>
             </div>
