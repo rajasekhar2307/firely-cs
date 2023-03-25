@@ -108,7 +108,9 @@ const WaitListForm = () => {
         </div>
       )}
       {isSuccess && (
-        <p className="message-success">You've been successfully registered!</p>
+        <p className="message-success">
+          You&apos;ve been successfully registered!
+        </p>
       )}
       {isError && (
         <p className="message-error">Something went wrong! Please try again</p>
