@@ -513,3 +513,28 @@ a {
 }
 
 /* LOADER END */
+
+.policies-container {
+  margin-top: 84px;
+}
+.policy-heading {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.policy-subheading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.policy-content {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.anchor-links {
+  font-size: 18px;
+  color: orangered;
+}
