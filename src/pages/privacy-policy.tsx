@@ -96,13 +96,13 @@ const PrivacyPolicy = () => {
         </ul>
         <p className="policy-subheading">How we use cookies</p>
         <p className="policy-content">
-          We use "cookies" to collect information and to better understand
-          customer behaviour. You can instruct your browser to refuse all
-          cookies or to indicate when a cookie is being sent. However, if you do
-          not accept cookies, you may not be able to avail our goods or services
-          to the full extent. We do not control the use of cookies by third
-          parties. The third party service providers have their own privacy
-          policies addressing how they use such information.
+          We use &quot;cookies&quot; to collect information and to better
+          understand customer behaviour. You can instruct your browser to refuse
+          all cookies or to indicate when a cookie is being sent. However, if
+          you do not accept cookies, you may not be able to avail our goods or
+          services to the full extent. We do not control the use of cookies by
+          third parties. The third party service providers have their own
+          privacy policies addressing how they use such information.
         </p>
         <p className="policy-content">Your rights relating to your data</p>
         <p className="policy-content">
